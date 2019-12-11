@@ -67,6 +67,5 @@ class tree {
 }
 
 const solution = (arr) => {
-	let t = new tree(arr);
-	return t.getLarger();
+	return new tree(arr).getLarger();
 };
